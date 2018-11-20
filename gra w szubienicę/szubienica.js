@@ -17,7 +17,7 @@ for (i=0; i<dlugosc; i++)
 
 function write_password()
 {
-	document.getElementById("plansza").innerHTML = haslo1;
+	document.getElementById("board").innerHTML = haslo1;
 }
 
 window.onload = start;
